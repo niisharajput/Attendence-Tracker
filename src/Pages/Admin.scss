@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  .homeContainer {
+    flex: 6;
+    border-left: 0.5px solid  rgb(231, 228, 228);
+    .boxes,
+    .chartsComponent {
+      display: flex;
+    }
+    .chartsComponent {
+      padding: 5px 20px;
+    }
+  }
+}
